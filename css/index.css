@@ -1,3 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Calistoga|Gupter|Tomorrow&display=swap');
+
 body {
-    background: grey;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    font-family: 'Gupter', sans-serif;
+    width: 100%;
+    color: beige;
 }
+
+header h1, header p {
+    text-align: center;
+}
+
+header #digital-font {
+    font-family: 'Tomorrow', cursive;
+}
+
+main {
+    background-color: rgba(116, 185, 255, 0.4);
+    border: 1px solid white;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.form-group {
+    
+}
+

@@ -11,10 +11,9 @@
 
 <body>
 	<header>
-		<h1 id="title">Digital Marketing agency form</h1>
-		<p id="description">Please fill a form</p>
+		<h1 id="title"><span id="digital-font">Digital Marketing agency</span> form</h1>
+		<p id="description">Thank you for taking the time to help us improve the platform.</p>
 	</header>
-
 	<main>
 		<form action="#" method="POST" id="survey-form">
 			<div class="form-group">
@@ -22,19 +21,19 @@
                     Name: <input type="text" id="name" name="name" placeholder="Name:" class="form-name" required>
                 </label>
 			</div>
-			<div class="form-group" id="email-label">
-				<label for="email">
-                    Email: <input type="mail" id="email" name="email" placeholder="Email:" class="form-name" required>
+			<div class="form-group">
+				<label for="email" id="email-label">
+                    Email: <input type="email" id="email" name="email" placeholder="Email:" class="form-name" required>
                 </label>
 			</div>
 			<div class="form-group">
 				<label for="age" id="number-label">
-                    Age(optional): <input type="number" id="age" name="age" placeholder="Age:" class="form-name" min="12" max="99">
+                    Age(optional): <input type="number" id="number" name="age" placeholder="Age:" class="form-name" min="12" max="99">
                 </label>
 			</div>
 			<div class="form-group">
 				<p>Select you status:</p>
-				<select name="select" id="">
+				<select name="select" id="dropdown">
                     <option disabled selected value> Select your status</option>
                     <option value="student">Students</option>
                     <option value="job">Full-time job</option>
@@ -45,10 +44,9 @@
 			</div>
 			<div class="form-group">
 				<p>Would you recomend your agency after using yours servise?</p>
-				<labe>
-					<input type="radio" name="user-recomend" value="definetly" class="input-radio" checked>Definetly</label>
-					<label><input type="radio" name="user-recomend" value="maybe" class="input-radio">Maybe</label>
-					<label><input type="radio" name="user-recomend" value="not-sure" class="input-radio">Not sure</label>
+				<label><input type="radio" name="user-recomend" value="definetly" class="input-radio" checked>Definetly</label>
+				<label><input type="radio" name="user-recomend" value="maybe" class="input-radio">Maybe</label>
+				<label><input type="radio" name="user-recomend" value="not-sure" class="input-radio">Not sure</label>
 			</div>
 			<div class="form-group">
 			</div>
@@ -80,6 +78,7 @@
 			</div>
 		</form>
 	</main>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>
